@@ -11,7 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      {/* <Text>Edit app/index.tsx to edit this screen.</Text> */}
       {/* <Button
         title="About"
         onPress={() => router.push("./about")}
@@ -22,9 +22,9 @@ export default function Index() {
       <Link style={style.link} href={'/products'}>
         <Text style={style.linkText}>Products</Text>
       </Link>
-      <Link style={style.link} href={'/missing'}>
+      {/* <Link style={style.link} href={'/missing'}>
         <Text style={style.linkText}>Missing</Text>
-      </Link>
+      </Link> */}
     </View>
   );
 }
