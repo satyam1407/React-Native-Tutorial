@@ -22,9 +22,9 @@ export default function Index() {
       <Link style={style.link} href={'/products'}>
         <Text style={style.linkText}>Products</Text>
       </Link>
-      {/* <Link style={style.link} href={'/missing'}>
-        <Text style={style.linkText}>Missing</Text>
-      </Link> */}
+      <Link style={style.link} href={'./todoApp'}>
+        <Text style={style.linkText}>TodoApp</Text>
+      </Link>
     </View>
   );
 }
